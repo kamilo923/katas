@@ -1,7 +1,7 @@
 import { fruitCounter } from './for-each.fruit-counter'
 
 describe('fruitCounter', () => {
-  it('should return a count of all repeated elements', () => {
+  it('Should Return A Count Of All Repeated Elements', () => {
     const given = ['🍋', '🍉', '🍒', '🍋', '🍋', '🍎', '🍎', '🍐']
 
     const actual = fruitCounter(given)
